@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-20T15:40:34 IST" name="Suite" finished-at="2023-07-20T15:43:25 IST" duration-ms="170540">
+    <groups>
+      <group name="Regression Test">
+        <method signature="TestCases.addingguests()[pri:8, instance:TestScenarios.TestCases@d5b810e]" name="addingguests" class="TestScenarios.TestCases"/>
+        <method signature="TestCases.clickingCityName()[pri:3, instance:TestScenarios.TestCases@d5b810e]" name="clickingCityName" class="TestScenarios.TestCases"/>
+        <method signature="TestCases.clickingHolidayHomeslink()[pri:1, instance:TestScenarios.TestCases@d5b810e]" name="clickingHolidayHomeslink" class="TestScenarios.TestCases"/>
+        <method signature="TestCases.enteringCityName()[pri:2, instance:TestScenarios.TestCases@d5b810e]" name="enteringCityName" class="TestScenarios.TestCases"/>
+        <method signature="TestCases.extractDetails_Cruise()[pri:13, instance:TestScenarios.TestCases@d5b810e]" name="extractDetails_Cruise" class="TestScenarios.TestCases"/>
+        <method signature="TestCases.printHotelDetails()[pri:9, instance:TestScenarios.TestCases@d5b810e]" name="printHotelDetails" class="TestScenarios.TestCases"/>
+        <method signature="TestCases.searchCruises()[pri:12, instance:TestScenarios.TestCases@d5b810e]" name="searchCruises" class="TestScenarios.TestCases"/>
+        <method signature="TestCases.selectCheckInDate()[pri:6, instance:TestScenarios.TestCases@d5b810e]" name="selectCheckInDate" class="TestScenarios.TestCases"/>
+        <method signature="TestCases.selectCheckOutDate()[pri:7, instance:TestScenarios.TestCases@d5b810e]" name="selectCheckOutDate" class="TestScenarios.TestCases"/>
+        <method signature="TestCases.selectCruiseLine()[pri:10, instance:TestScenarios.TestCases@d5b810e]" name="selectCruiseLine" class="TestScenarios.TestCases"/>
+        <method signature="TestCases.selectCruiseShip()[pri:11, instance:TestScenarios.TestCases@d5b810e]" name="selectCruiseShip" class="TestScenarios.TestCases"/>
+        <method signature="TestCases.selectingElevator()[pri:5, instance:TestScenarios.TestCases@d5b810e]" name="selectingElevator" class="TestScenarios.TestCases"/>
+        <method signature="TestCases.sortBy()[pri:4, instance:TestScenarios.TestCases@d5b810e]" name="sortBy" class="TestScenarios.TestCases"/>
+      </group> <!-- Regression Test -->
+    </groups>
+    <test started-at="2023-07-20T15:40:34 IST" name="TripCost" finished-at="2023-07-20T15:43:25 IST" duration-ms="170540">
+      <class name="TestScenarios.TestCases">
+        <test-method is-config="true" signature="Configdriver1(java.lang.String)[pri:0, instance:TestScenarios.TestCases@d5b810e]" started-at="2023-07-20T15:40:34 IST" name="Configdriver1" finished-at="2023-07-20T15:40:50 IST" duration-ms="15658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Configdriver1 -->
+        <test-method signature="clickingHolidayHomeslink()[pri:1, instance:TestScenarios.TestCases@d5b810e]" started-at="2023-07-20T15:40:50 IST" name="clickingHolidayHomeslink" finished-at="2023-07-20T15:40:51 IST" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingHolidayHomeslink -->
+        <test-method signature="enteringCityName()[pri:2, instance:TestScenarios.TestCases@d5b810e]" started-at="2023-07-20T15:40:51 IST" name="enteringCityName" finished-at="2023-07-20T15:40:54 IST" duration-ms="3297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteringCityName -->
+        <test-method signature="clickingCityName()[pri:3, instance:TestScenarios.TestCases@d5b810e]" started-at="2023-07-20T15:40:54 IST" name="clickingCityName" finished-at="2023-07-20T15:41:23 IST" duration-ms="28827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingCityName -->
+        <test-method signature="sortBy()[pri:4, instance:TestScenarios.TestCases@d5b810e]" started-at="2023-07-20T15:41:23 IST" name="sortBy" finished-at="2023-07-20T15:41:24 IST" duration-ms="1649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortBy -->
+        <test-method signature="selectingElevator()[pri:5, instance:TestScenarios.TestCases@d5b810e]" started-at="2023-07-20T15:41:24 IST" name="selectingElevator" finished-at="2023-07-20T15:41:26 IST" duration-ms="1619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectingElevator -->
+        <test-method signature="selectCheckInDate()[pri:6, instance:TestScenarios.TestCases@d5b810e]" started-at="2023-07-20T15:41:26 IST" name="selectCheckInDate" finished-at="2023-07-20T15:41:27 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCheckInDate -->
+        <test-method signature="selectCheckOutDate()[pri:7, instance:TestScenarios.TestCases@d5b810e]" started-at="2023-07-20T15:41:27 IST" name="selectCheckOutDate" finished-at="2023-07-20T15:41:28 IST" duration-ms="1281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCheckOutDate -->
+        <test-method signature="addingguests()[pri:8, instance:TestScenarios.TestCases@d5b810e]" started-at="2023-07-20T15:41:28 IST" name="addingguests" finished-at="2023-07-20T15:41:36 IST" duration-ms="7669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingguests -->
+        <test-method signature="printHotelDetails()[pri:9, instance:TestScenarios.TestCases@d5b810e]" started-at="2023-07-20T15:41:36 IST" name="printHotelDetails" finished-at="2023-07-20T15:41:39 IST" duration-ms="3818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printHotelDetails -->
+        <test-method signature="selectCruiseLine()[pri:10, instance:TestScenarios.TestCases@d5b810e]" started-at="2023-07-20T15:41:39 IST" name="selectCruiseLine" finished-at="2023-07-20T15:42:20 IST" duration-ms="40695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCruiseLine -->
+        <test-method signature="selectCruiseShip()[pri:11, instance:TestScenarios.TestCases@d5b810e]" started-at="2023-07-20T15:42:20 IST" name="selectCruiseShip" finished-at="2023-07-20T15:42:51 IST" duration-ms="30557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCruiseShip -->
+        <test-method signature="searchCruises()[pri:12, instance:TestScenarios.TestCases@d5b810e]" started-at="2023-07-20T15:42:51 IST" name="searchCruises" finished-at="2023-07-20T15:43:22 IST" duration-ms="31713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCruises -->
+        <test-method signature="extractDetails_Cruise()[pri:13, instance:TestScenarios.TestCases@d5b810e]" started-at="2023-07-20T15:43:22 IST" name="extractDetails_Cruise" finished-at="2023-07-20T15:43:22 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractDetails_Cruise -->
+        <test-method is-config="true" signature="closeBrowser2()[pri:0, instance:TestScenarios.TestCases@d5b810e]" started-at="2023-07-20T15:43:22 IST" name="closeBrowser2" finished-at="2023-07-20T15:43:25 IST" duration-ms="2539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser2 -->
+      </class> <!-- TestScenarios.TestCases -->
+    </test> <!-- TripCost -->
+  </suite> <!-- Suite -->
+</testng-results>
